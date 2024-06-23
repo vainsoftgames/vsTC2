@@ -306,7 +306,7 @@ class vsTC2:
 	# Static Methods
 	@staticmethod
 	def notify_zoneminder(zone_id):
-		url = f"http:///harvesteronline.com/api/webhook_zm.php?zone={zone_id}"
+		url = f"https:///example.com/api/webhook_zm.php?zone={zone_id}"
 		try:
 			response = requests.get(url)
 			if response.status_code == 200:
