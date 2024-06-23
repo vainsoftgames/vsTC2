@@ -13,7 +13,7 @@
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/vstc2.git
+    git clone https://github.com/vainsoftgames/vstc2.git
     cd vstc2
     ```
 
